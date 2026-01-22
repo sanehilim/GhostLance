@@ -9,23 +9,7 @@
 [![Zero Knowledge](https://img.shields.io/badge/Zero-Knowledge-A78BFA?style=flat-square)](https://aleo.org)
 
 ---
-
  
-
-## 📖 Table of Contents
-
-- [What is GhostLance?](#what-is-ghostlance)
-- [Why GhostLance?](#why-ghostlance)
-- [How It Works](#how-it-works)
-- [Key Features](#key-features)
-- [Use Cases](#use-cases)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Deployment](#deployment)
-- [Documentation](#documentation)
-
----
 
 ## 🎯 What is GhostLance?
 
@@ -174,7 +158,6 @@ A ZK proof allows you to prove you have certain credentials (e.g., "I have 10+ y
 
 - **Decentralized**: Built on Aleo blockchain
 - **No Central Authority**: No company controlling the platform
-- **IPFS Storage**: Files stored on IPFS (Pinata)
 - **MongoDB Metadata**: Job metadata stored off-chain for efficiency
 - **Wallet Integration**: Puzzle Wallet SDK for seamless connections
 
@@ -323,13 +306,7 @@ Client → Aleo Escrow (lock) → Work Completion → Aleo Escrow (release)
 - **TypeScript**: Type-safe JavaScript
 - **Tailwind CSS**: Utility-first CSS framework
 - **Puzzle Wallet SDK**: Wallet integration library
-
-### Backend & Storage
-
-- **MongoDB Atlas**: Cloud database for job metadata
-- **Pinata**: IPFS pinning service for file storage
-- **Node.js**: Runtime environment
-
+ 
 ### Development Tools
 
 - **Leo CLI 3.4.0**: Smart contract development
@@ -345,8 +322,7 @@ Client → Aleo Escrow (lock) → Work Completion → Aleo Escrow (release)
 1. **Node.js 18+** - [Download](https://nodejs.org/)
 2. **Leo CLI 3.4.0** - [Installation Guide](https://developer.aleo.org/getting_started/installation)
 3. **MongoDB Atlas Account** - [Sign Up](https://www.mongodb.com/cloud/atlas)
-4. **Pinata Account** - [Sign Up](https://pinata.cloud)
-5. **Puzzle Wallet Extension** - [Install](https://puzzle.online)
+4. **Puzzle Wallet Extension** - [Install](https://puzzle.online)
 
 ### Installation Steps
 
@@ -392,15 +368,8 @@ NEXT_PUBLIC_ALEO_RPC_URL=https://api.explorer.aleo.org/v1
 
 # Puzzle Wallet Configuration
 NEXT_PUBLIC_PUZZLE_WALLET_URL=https://puzzle.online
-
-# Pinata/IPFS Configuration
-NEXT_PUBLIC_PINATA_API_KEY=your_pinata_api_key
-NEXT_PUBLIC_PINATA_SECRET_API_KEY=your_pinata_secret_key
-NEXT_PUBLIC_PINATA_GATEWAY=https://gateway.pinata.cloud/ipfs/
-
-# MongoDB Configuration
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
-
+ 
+ 
 # Program IDs (Update after deployment)
 NEXT_PUBLIC_PROOF_PROGRAM_ID=proof_generator_ghostlance_7832.aleo
 NEXT_PUBLIC_JOB_MARKET_PROGRAM_ID=job_market_ghostlance_9124.aleo
@@ -490,7 +459,7 @@ CMD ["npm", "start"]
 - **[Aleo Documentation](https://developer.aleo.org)** - Official Aleo docs
 - **[Leo Language Guide](https://docs.leo-lang.org)** - Leo programming language
 - **[Puzzle Wallet](https://puzzle.online)** - Wallet documentation
-- **[Pinata Docs](https://docs.pinata.cloud)** - IPFS pinning service
+ 
 
 ---
 
@@ -718,20 +687,9 @@ This is a hackathon project built for the Aleo Privacy Buildathon. Contributions
 
 ---
 
-## 📝 License
+ 
 
-MIT License - See LICENSE file for details
-
----
-
-## 🙏 Acknowledgments
-
-- **Aleo Team** - For building an amazing privacy-preserving blockchain
-- **Puzzle Wallet** - For seamless wallet integration
-- **Pinata** - For IPFS storage solutions
-- **MongoDB** - For flexible database hosting
-
----
+ 
 
 ## 🚀 Quick Links
 
