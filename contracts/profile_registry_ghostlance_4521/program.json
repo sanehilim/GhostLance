@@ -1,0 +1,7 @@
+{
+  "program": "profile_registry_ghostlance_4521.aleo",
+  "version": "1.0.0",
+  "description": "GhostLance Profile Registry - Stores encrypted freelancer profiles",
+  "license": "MIT",
+  "dependencies": []
+}

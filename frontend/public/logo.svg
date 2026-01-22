@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ghost silhouette -->
+  <path d="M100 30C70 30 45 55 45 85C45 95 50 105 58 112V160C58 175 70 185 85 185C90 185 95 183 100 180C105 183 110 185 115 185C130 185 142 175 142 160V112C150 105 155 95 155 85C155 55 130 30 100 30Z" fill="url(#gradient1)"/>
+  
+  <!-- Eyes -->
+  <circle cx="75" cy="85" r="8" fill="white" opacity="0.9"/>
+  <circle cx="125" cy="85" r="8" fill="white" opacity="0.9"/>
+  <circle cx="75" cy="85" r="5" fill="#6366F1"/>
+  <circle cx="125" cy="85" r="5" fill="#6366F1"/>
+  
+  <!-- Zero-Knowledge sparkle -->
+  <circle cx="100" cy="120" r="4" fill="#A78BFA" opacity="0.8"/>
+  <path d="M100 105L100 115M95 110L105 110" stroke="#A78BFA" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

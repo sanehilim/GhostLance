@@ -1,0 +1,7 @@
+{
+  "program": "job_market_ghostlance_9124.aleo",
+  "version": "1.0.0",
+  "description": "GhostLance Job Market - Job creation and application management",
+  "license": "MIT",
+  "dependencies": []
+}

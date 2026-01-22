@@ -1,0 +1,7 @@
+{
+  "program": "reputation_ghostlance_6789.aleo",
+  "version": "1.0.0",
+  "description": "GhostLance Reputation - Privately tracks delivery stats and reputation",
+  "license": "MIT",
+  "dependencies": []
+}

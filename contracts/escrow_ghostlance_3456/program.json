@@ -1,0 +1,7 @@
+{
+  "program": "escrow_ghostlance_3456.aleo",
+  "version": "1.0.0",
+  "description": "GhostLance Escrow - Payment escrow system for job payments",
+  "license": "MIT",
+  "dependencies": []
+}

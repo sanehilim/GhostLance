@@ -1,0 +1,7 @@
+{
+  "program": "proof_generator_ghostlance_7832.aleo",
+  "version": "1.0.0",
+  "description": "GhostLance Proof Generator - Generates ZK proofs for skills and experience",
+  "license": "MIT",
+  "dependencies": []
+}
